@@ -1,0 +1,20 @@
+img{
+    height: 300px;
+    width: 100%;
+}
+
+.cardimg{
+    height: 100px;
+    width: 100px;
+}
+
+button{
+    background-color: rgb(0, 62, 156);
+    color: white;
+    width: 150px;
+}
+
+.vl {
+    border-left: 6px solid rgb(110, 110, 110);
+    height: 125px;
+  }
