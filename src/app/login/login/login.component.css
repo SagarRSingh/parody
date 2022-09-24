@@ -1,0 +1,107 @@
+
+   ::ng-deep input.mat-input-element {
+    color: white;
+}
+
+/* Change label color on focused */
+ ::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: #00ADB5 !important;
+}
+
+/* underline border color on focused */
+::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple {
+    background-color: #00ADB5 !important;
+  border-radius: 50px;
+}
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: #00ADB5;
+    border-radius: 50px;
+}
+
+ ::ng-deep .mat-focused .mat-form-field-label {
+    color: #00ADB5 !important;
+
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #00ADB5;
+  border-radius: 1000px;
+}
+
+/* focused color */
+ ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #00ADB5;
+  border-radius: 1000px;
+}
+
+/* floating label color */
+ ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+    color: #00ADB5;
+  border-radius: 1000px;
+}
+.login {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://w0.peakpx.com/wallpaper/484/859/HD-wallpaper-macbook-pro-apple-laptop-headphones-apple-macbook-pro-laptop-headphones.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.overlay div h1 {color: white;
+    font-size: 50px;
+    font-family: 'Tiro Bangla', serif;
+}
+.login .overlay button:hover {
+    background-image: linear-gradient(to right, #00adb5, #8dcccf, #65c3c8, #85bda2);
+    box-shadow: 0 4px 15px 0 rgba(138, 225, 222, 0.75);
+   
+}
+
+.login .overlay button {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.login .overlay button:hover {
+    background-position: 100% 0;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.mat-card {
+    background-color: rgba(56, 56, 56, 0.5);
+}
+::ng-deep .mat-form-field-outline-start {
+    border-radius: 28px 0 0 28px !important;
+    min-width: 28px !important;
+}
+
+::ng-deep .mat-form-field-outline-end {
+    border-radius: 0 30px 30px 0 !important;
+}
+
+
+
