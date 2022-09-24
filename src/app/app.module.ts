@@ -26,18 +26,19 @@ import { CreateteamdialogueComponent } from './createteamdialogue/createteamdial
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    AdminModule,
-    MatButtonModule,
-    MatDialogModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatCardModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatButtonModule,
-    MatSelectModule,
-    LoginModule
+
+    BrowserAnimationsModule, AdminModule, NgbModule,
+    MatInputModule,FormsModule,MatButtonModule,MatSelectModule,MatFormFieldModule,MatCardModule,
+
+    LoginModule,
+    HttpClientModule,
+    NgbModule,
+    AdminModule
+    
+
+  
+    
+
   ],
     
   providers: [ApiServices],
