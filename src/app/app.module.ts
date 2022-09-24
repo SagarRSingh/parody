@@ -25,10 +25,14 @@ import {MatCardModule} from '@angular/material/card';
     AppRoutingModule,
 
     BrowserAnimationsModule, AdminModule, NgbModule,
-    MatInputModule,FormsModule,MatButtonModule,MatSelectModule,MatFormFieldModule,MatCardModule
+    MatInputModule,FormsModule,MatButtonModule,MatSelectModule,MatFormFieldModule,MatCardModule,
 
-    BrowserAnimationsModule,
     LoginModule,
+    HttpClientModule,
+    NgbModule,
+    AdminModule
+    
+
   
     
 
