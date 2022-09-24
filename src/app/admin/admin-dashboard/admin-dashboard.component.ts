@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { CreateteamdialogueComponent } from 'src/app/createteamdialogue/createteamdialogue.component';
 
 @Component({
   selector: 'app-admin-dashboard',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminDashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
+
+  openDialog() {
+    this.dialog.open(CreateteamdialogueComponent);
+  }
 
   ngOnInit(): void {
   }
