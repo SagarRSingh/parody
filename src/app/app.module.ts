@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AdminModule } from './admin/admin.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {HttpClientModule} from '@angular/common/http'
+import { ApiServices } from './Services/api.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import {HttpClientModule} from '@angular/common/http'
     AppRoutingModule, HttpClientModule,
     BrowserAnimationsModule, AdminModule, NgbModule
   ],
-  providers: [],
+  providers: [ApiServices],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
