@@ -8,15 +8,21 @@ import { AdminModule } from './admin/admin.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {HttpClientModule} from '@angular/common/http'
 import { ApiServices } from './Services/api.service';
+import { LoginModule } from './login/login.module';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, HttpClientModule,
-    BrowserAnimationsModule, AdminModule, NgbModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    LoginModule,
+  
+    
   ],
   providers: [ApiServices],
   bootstrap: [AppComponent]
