@@ -1,154 +1,314 @@
 {
-  "members":[
+  "members": [
     {
       "id": 1,
-      "name":"Saurabh Vaishya",
+      "name": "Saurabh Vaishya",
       "email": "hello@gmail.com",
       "contactNumber": "457474747",
-      "technology": ["Angular", ".Net"],
+      "technology": [
+        "Angular",
+        ".Net"
+      ],
       "password": "password1",
-      "category":"Full"
+      "category": "Full"
     },
     {
       "id": 2,
-      "name":"shantanu",
+      "name": "shantanu",
       "email": "shantany@gmail.com",
       "contactNumber": "29384723948",
-      "technology": ["java",".Net"],
+      "technology": [
+        "java",
+        ".Net"
+      ],
       "password": "password2",
-      "category":"Back"
+      "category": "Back"
     },
     {
       "id": 3,
-      "name":"Rajat Singh",
+      "name": "Rajat Singh",
       "email": "rajat@gmail.com",
       "contactNumber": "30489573475",
-      "technology": ["React","Angular"],
+      "technology": [
+        "React",
+        "Angular"
+      ],
       "password": "password3",
-      "category":"Front"
+      "category": "Front"
     },
     {
       "id": 4,
-      "name":"Sagar Singh",
+      "name": "Sagar Singh",
       "email": "sagar@gmail.com",
       "contactNumber": "9867976976",
-      "technology": ["Python","Angular"],
+      "technology": [
+        "Python",
+        "Angular"
+      ],
       "password": "password",
-      "category":"Full"
+      "category": "Full"
     },
     {
       "id": 5,
-      "name":"Shailesh Chaudhary",
+      "name": "Shailesh Chaudhary",
       "email": "shailesh@gmail.com",
       "contactNumber": "098797987",
-      "technology": ["Oracle"],
+      "technology": [
+        "Oracle"
+      ],
       "password": "password",
-      "category":"DB"
+      "category": "DB"
     },
     {
       "id": 6,
-      "name":"Rocky ",
+      "name": "Rocky ",
       "email": "rocky@gmail.com",
       "contactNumber": "3497853947",
-      "technology": ["Selenium"],
+      "technology": [
+        "Selenium"
+      ],
       "password": "password",
-      "category":"QA"
+      "category": "QA"
     },
     {
       "id": 7,
-      "name":"Anjali",
+      "name": "Anjali",
       "email": "Anjali@gmail.com",
       "contactNumber": "457474747",
-      "technology": ["Angular", ".Net"],
+      "technology": [
+        "Angular",
+        ".Net"
+      ],
       "password": "password",
-      "category":"Full"
+      "category": "Full"
     },
     {
       "id": 8,
-      "name":"Chanpak",
+      "name": "Chanpak",
       "email": "chanpak@gmail.com",
       "contactNumber": "29384723948",
-      "technology": ["java",".Net"],
+      "technology": [
+        "java",
+        ".Net"
+      ],
       "password": "password",
-      "category":"Back"
+      "category": "Back"
     },
     {
       "id": 9,
-      "name":"Smith Jhon",
+      "name": "Smith Jhon",
       "email": "smith@gmail.com",
       "contactNumber": "30489573475",
-      "technology": ["React","Angular"],
+      "technology": [
+        "React",
+        "Angular"
+      ],
       "password": "password",
-      "category":"Front"
+      "category": "Front"
     },
     {
       "id": 10,
-      "name":"Jhon Doe",
+      "name": "Jhon Doe",
       "email": "jhon@gmail.com",
       "contactNumber": "9867976976",
-      "technology": ["Python","Angular"],
+      "technology": [
+        "Python",
+        "Angular"
+      ],
       "password": "password",
-      "category":"Full"
+      "category": "Full"
     },
     {
       "id": 11,
-      "name":"Sharma Ji",
+      "name": "Sharma Ji",
       "email": "sharma@gmail.com",
       "contactNumber": "098797987",
-      "technology": ["Oracle"],
+      "technology": [
+        "Oracle"
+      ],
       "password": "password",
-      "category":"DB"
+      "category": "DB"
     },
     {
       "id": 12,
-      "name":"Rameeka Sain",
+      "name": "Rameeka Sain",
       "email": "rameeka@gmail.com",
       "contactNumber": "3497853947",
-      "technology": ["Selenium"],
+      "technology": [
+        "Selenium"
+      ],
       "password": "password",
-      "category":"QA"
+      "category": "QA"
+    },
+    {
+      "id": 13,
+      "name": "Saurabh Vaishya",
+      "email": "hello@gmail.com",
+      "contactNumber": "457474747",
+      "technology": [
+        "Angular",
+        ".Net"
+      ],
+      "password": "password1",
+      "category": "Full"
+    },
+    {
+      "id": 14,
+      "name": "shantanu",
+      "email": "shantany@gmail.com",
+      "contactNumber": "29384723948",
+      "technology": [
+        "java",
+        ".Net"
+      ],
+      "password": "password2",
+      "category": "Back"
+    },
+    {
+      "id": 15,
+      "name": "Rajat Singh",
+      "email": "rajat@gmail.com",
+      "contactNumber": "30489573475",
+      "technology": [
+        "React",
+        "Angular"
+      ],
+      "password": "password3",
+      "category": "Front"
+    },
+    {
+      "id": 16,
+      "name": "Sagar Singh",
+      "email": "sagar@gmail.com",
+      "contactNumber": "9867976976",
+      "technology": [
+        "Python",
+        "Angular"
+      ],
+      "password": "password",
+      "category": "Full"
+    },
+    {
+      "id": 17,
+      "name": "Shailesh Chaudhary",
+      "email": "shailesh@gmail.com",
+      "contactNumber": "098797987",
+      "technology": [
+        "Oracle"
+      ],
+      "password": "password",
+      "category": "DB"
+    },
+    {
+      "id": 18,
+      "name": "Rocky ",
+      "email": "rocky@gmail.com",
+      "contactNumber": "3497853947",
+      "technology": [
+        "Selenium"
+      ],
+      "password": "password",
+      "category": "QA"
+    },
+    {
+      "id": 19,
+      "name": "Anjali",
+      "email": "Anjali@gmail.com",
+      "contactNumber": "457474747",
+      "technology": [
+        "Angular",
+        ".Net"
+      ],
+      "password": "password",
+      "category": "Full"
+    },
+    {
+      "id": 20,
+      "name": "Chanpak",
+      "email": "chanpak@gmail.com",
+      "contactNumber": "29384723948",
+      "technology": [
+        "java",
+        ".Net"
+      ],
+      "password": "password",
+      "category": "Back"
+    },
+    {
+      "id": 21,
+      "name": "Smith Jhon",
+      "email": "smith@gmail.com",
+      "contactNumber": "30489573475",
+      "technology": [
+        "React",
+        "Angular"
+      ],
+      "password": "password",
+      "category": "Front"
+    },
+    {
+      "id": 22,
+      "name": "Jhon Doe",
+      "email": "jhon@gmail.com",
+      "contactNumber": "9867976976",
+      "technology": [
+        "Python",
+        "Angular"
+      ],
+      "password": "password",
+      "category": "Full"
+    },
+    {
+      "id": 23,
+      "name": "Sharma Ji",
+      "email": "sharma@gmail.com",
+      "contactNumber": "098797987",
+      "technology": [
+        "Oracle"
+      ],
+      "password": "password",
+      "category": "DB"
+    },
+    {
+      "id": 24,
+      "name": "Rameeka Sain",
+      "email": "rameeka@gmail.com",
+      "contactNumber": "3497853947",
+      "technology": [
+        "Selenium"
+      ],
+      "password": "password",
+      "category": "QA"
     }
-  
   ],
-  
-  "admins":[
+  "admins": [
     {
       "id": 1,
-      "username":"admin",
-      "password":"admin",
-      
-      "hackathons":[]
+      "username": "admin",
+      "password": "admin",
+      "hackathons": []
     }
   ],
-
-  "teams":[
+  "teams": [],
+  "hackathons": [
     {
       "id": 1,
-      "name": "ta",
-      "isSelected":false,
-      "members":[]
-    }
-  ],
-
-  "hackathons":[
-    {
-      "id": 1,
-      "teams":[],
-      "stages":[
+      "teams": [],
+      "stages": [
         {
           "name": "",
           "title": "",
-           "teamsForNextStage":[]
+          "teamsForNextStage": []
         }
       ],
-      "teamsNeeded":0,
-      "teamContents":{
-        "Frontend":1,
-        "Backend":1,
-        "DB":1,
-        "QA":1
+      "teamsNeeded": 0,
+      "teamContents": {
+        "Frontend": 1,
+        "Backend": 1,
+        "DB": 1,
+        "QA": 1
       },
-      "totalTeamsRequired":0
+      "totalTeamsRequired": 0
     }
   ]
 }
