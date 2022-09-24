@@ -15,30 +15,28 @@ import { LoginModule } from './login/login.module';
 import {MatFormFieldModule } from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
-import { CreateteamdialogueComponent } from './createteamdialogue/createteamdialogue.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatTableModule} from '@angular/material/table';
+import { CreateteamdialogueComponent, TableComponent } from './createteamdialogue/createteamdialogue.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateteamdialogueComponent,
-    HomepageComponent
+    HomepageComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
-    BrowserAnimationsModule, AdminModule,
-    MatInputModule,FormsModule,MatButtonModule,MatSelectModule,MatFormFieldModule,MatCardModule,
-
-    LoginModule,
+    BrowserAnimationsModule, 
+    MatInputModule, MatTableModule,
+    MatButtonModule, MatSelectModule,
+    MatFormFieldModule, MatCardModule,
+    LoginModule, AdminModule,
     HttpClientModule,
-    NgbModule,
-    FormsModule,
-    ReactiveFormsModule
-  
-    
-
+    NgbModule, FormsModule,
+    ReactiveFormsModule   
   ],
     
   providers: [ApiServices],
