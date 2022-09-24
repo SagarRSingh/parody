@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
+import { HomepageComponent } from './Homepage/create-homepage-component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'admin',component:AdminDashboardComponent},
+  {path:'home',component:HomepageComponent},
+  {path:'',redirectTo:'home',pathMatch:'full'}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
