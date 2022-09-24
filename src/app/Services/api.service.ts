@@ -1,10 +1,12 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs";
+import { Observable, Subject } from "rxjs";
 
 @Injectable()
 export class ApiServices {
   url:string='http://localhost:3000';
+  loginStatus$: any = new Subject();
+  admin$: any = new Subject();
 
   constructor(private _http:HttpClient){}
 
