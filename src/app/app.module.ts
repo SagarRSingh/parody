@@ -16,6 +16,7 @@ import {MatFormFieldModule } from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CreateteamdialogueComponent } from './createteamdialogue/createteamdialogue.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -27,15 +28,14 @@ import { CreateteamdialogueComponent } from './createteamdialogue/createteamdial
     BrowserModule,
     AppRoutingModule,
 
-    BrowserAnimationsModule, AdminModule, NgbModule,
+    BrowserAnimationsModule, AdminModule,
     MatInputModule,FormsModule,MatButtonModule,MatSelectModule,MatFormFieldModule,MatCardModule,
 
     LoginModule,
     HttpClientModule,
     NgbModule,
-    AdminModule
-    
-
+    FormsModule,
+    ReactiveFormsModule
   
     
 
